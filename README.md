@@ -15,7 +15,7 @@ The react part was bootstrapped with the [create-react-app][1] using TypeScript 
 create-react-app app --typescript 
 ```
 
-![SmartGWT React animated gif](doc/img/smartgwt-react.gif)
+![React + SmartGWT/SmartClient](doc/img/smartgwt-react-demo.gif)
 
 (*) My personal opinion is that both are not a good match and beside from this prototype I have abandoned React + SmartClient. 
 If you want to build a nice (composable) React application you'll get stuck with SmartClient layouts (certainly when legacy SmartGWT is involved as well). 
