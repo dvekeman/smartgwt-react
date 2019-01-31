@@ -3,7 +3,7 @@
 The goal of this project is to show how to use React could work together with SmartGWT and SmartClient. 
 
 SmartClient comes with a full architecture and React doesn't play well together with libraries that like to control the DOM themselves.
-So whether this is actually a good idea is up to the reader, here I merely investigate how it _could_ work. 
+So whether this is actually a good idea is up to the reader, here I merely investigate how it _could_ work. (*)
 
 The approach I took was to make React the owner of the layout and use SmartClient / SmartGWT widgets.
 
@@ -16,6 +16,14 @@ create-react-app app --typescript
 ```
 
 ![SmartGWT React animated gif](doc/img/smartgwt-react.gif)
+
+(*) My personal opinion is that both are not a good match and beside from this prototype I have abandoned React + SmartClient. 
+If you want to build a nice (composable) React application you'll get stuck with SmartClient layouts (certainly when legacy SmartGWT is involved as well). 
+However if you build from scratch and if you stick to using React for composing components and divide your SmartClient widgets over these React components you might actually get somewhere... 
+
+## DISCLAIMER
+
+This is experimental stuff!
 
 ## Introduction
 
